@@ -92,6 +92,9 @@ def eval_policy(agent, env_name, seed, eval_episodes, discrete_action, env_args=
         return avg_predator_return
 
 def offline_train(config):
+    outdir = prepare_output_dir(config.dir + '/' + config.env_id, argv=sys.argv)
+    print('\033[1;32mOutput files are saved in {} \033[1;0m'.format(outdir))
+
     torch.manual_seed(config.seed)
     np.random.seed(config.seed)
     torch.cuda.manual_seed(config.seed)
@@ -222,7 +225,9 @@ if __name__ == '__main__':
             config.num_steps = 100000
     elif config.env_id == 'HalfCheetah-v2':
         config.num_steps = int(1e6)
-
+        config.steps_per_update = 10
+        config.eval_interval = 5000
+        
     config.dataset_dir = config.dataset_dir + '/' + config.env_id + '/' + config.data_type + '/' + 'seed_{}_data'.format(config.seed)
         
     offline_train(config)
