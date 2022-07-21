@@ -5,8 +5,6 @@ This repository is the implementation of [Plan Better Amid Conservatism: Offline
 ## Citing
 
 If you used this code in your research or found it helpful, please consider citing our paper:
-Bibtex:
-
 ```
 @inproceedings{pan2021regularized,
   title={Plan Better Amid Conservatism: Offline Multi-Agent Reinforcement Learning with Actor Rectification},
