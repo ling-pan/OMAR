@@ -30,6 +30,15 @@ Learning},
 
 - Multi-Agent MuJoCo: Please check the [multiagent_mujoco](https://github.com/schroederdewitt/multiagent_mujoco) repo for more details about the environment. Note that this depends on gym with version 0.10.5.
 
+## Datasets
+Datasets for different tasks are available at the following links. Please download the datasets and decompress them to the datasets folder.
+- [HalfCheetah](https://drive.google.com/file/d/1zELoWUZoy3wPpwYni9t_TbzOjF4Px2f0/view?usp=sharing)
+- [Cooperative Navigation](https://pan.baidu.com/s/1QtyCSFAiSH9yn3dSiCP6gA): password is teve
+- [Predator-Prey](https://pan.baidu.com/s/16W-UyyCtfKDt9oTgeNOhJA): password is m7vw
+- [World](https://pan.baidu.com/s/1pjZmeIAlaepPpug3b5olGA): password is 5k3t
+
+Note: The datasets are too large, and the Baidu (Chinese) online disk requires a password for accessing it. Please just enter the password in the input box and click the blue button. The dataset can then be downloaded by cliking the "download" button (the second white button).
+
 ## Usage
 
 Please follow the instructions below to replicate the results in the paper. 
@@ -38,6 +47,6 @@ Please follow the instructions below to replicate the results in the paper.
 pythonmain.py --env_id <ENVIRONMENT_NAME> --data_type <DATA_TYPE> --seed <SEED> --omar 1
 ```
 
-- env_id: simple_spread/tag/world, HalfCheetah-v2
+- env_id: simple_spread/tag/world/HalfCheetah-v2
 - data_type: random/medium-replay/medium/expert
 
