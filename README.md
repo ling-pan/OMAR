@@ -20,14 +20,11 @@ Learning},
 ## Requirements
 
 - Multi-agent Particle Environments: in envs/multiagent-particle-envs and install it by `pip install -e .`
-
 - python: 3.6
-
 - torch
 - baselines (https://github.com/openai/baselines)
 - seaborn
 - gym==0.9.4
-
 - Multi-Agent MuJoCo: Please check the [multiagent_mujoco](https://github.com/schroederdewitt/multiagent_mujoco) repo for more details about the environment. Note that this depends on gym with version 0.10.5.
 
 ## Datasets
