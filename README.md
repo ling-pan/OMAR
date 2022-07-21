@@ -28,7 +28,7 @@ Learning},
 ## Datasets
 Datasets for different tasks are available at the following links. Please download the datasets and decompress them to the datasets folder.
 - [HalfCheetah](https://drive.google.com/file/d/1zELoWUZoy3wPpwYni9t_TbzOjF4Px2f0/view?usp=sharing)
-- [Cooperative Navigation](https://pan.baidu.com/s/1QtyCSFAiSH9yn3dSiCP6gA): password is teve
+- [Cooperative Navigation](https://drive.google.com/file/d/1YVk_ajtvbcq8R2m0u0RasfB0csToV7XP/view?usp=sharing)
 - [Predator-Prey](https://pan.baidu.com/s/16W-UyyCtfKDt9oTgeNOhJA): password is m7vw
 - [World](https://pan.baidu.com/s/1pjZmeIAlaepPpug3b5olGA): password is 5k3t
 
